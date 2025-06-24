@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Diabetes Risk Assessment Form</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 min-h-screen flex items-center justify-center p-4"><div class="bg-gray-800 shadow-lg rounded-lg p-8 max-w-md w-full">
+<h3 class="text-2xl font-semibold mb-6 text-gray-100">Diabetes Risk Assessment
+Form</h3>
+<form method="POST" action="/predict" class="space-y-5">
+<div>
+<label for="hbA1c_level" class="block text-gray-300 font-medium mb-1">HbA1c
+Level (%):</label>
+<input type="text" id="hbA1c_level" name="hbA1c_level" class="w-full
+bg-gray-700 border border-gray-600 rounded-md px-3 py-2 text-gray-100
+focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+</div>
+<div>
+<label for="blood_glucose_level" class="block text-gray-300 font-medium
+mb-1">Blood Glucose Level (mg/dL):</label>
+<input type="text" id="blood_glucose_level" name="blood_glucose_level"
+class="w-full bg-gray-700 border border-gray-600 rounded-md px-3 py-2
+text-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+</div>
+<div>
+<label for="bmi" class="block text-gray-300 font-medium mb-1">BMI:</label>
+<input type="text" id="bmi" name="bmi" class="w-full bg-gray-700 border
+border-gray-600 rounded-md px-3 py-2 text-gray-100 focus:outline-none
+focus:ring-2 focus:ring-indigo-500" />
+</div>
+<div>
+<label for="age" class="block text-gray-300 font-medium mb-1">Age:</label>
+<input type="text" id="age" name="age" class="w-full bg-gray-700 border
+border-gray-600 rounded-md px-3 py-2 text-gray-100 focus:outline-nonefocus:ring-2 focus:ring-indigo-500" />
+</div>
+<button type="submit" class="w-full bg-indigo-600 text-white font-semibold py-2
+rounded-md hover:bg-indigo-700 transition-colors">Get Assessment</button>
+</form>
+</div>
+</body>
+</html>
