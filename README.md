@@ -68,7 +68,7 @@ diabetes-prediction-app/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/diabetes-prediction-app.git
+git clone https://github.com/kartik10sharma/diabetes-prediction-app.git
 cd diabetes-prediction-app
 ````
 
